@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*footer*/
+.footer-wrapper{
+	padding:30px 0;
+	background-color:#252535;
+}
+.copyright{
+	font-size:12px;
+	line-height:24px;
+	font-weight:bold;
+	color:#aaaaae;
+}
+.copyright a{
+	display:inline-block;
+	margin-right:10px;
+	color:#aaaaae;
+}
+.copyright a:hover{
+	color:#398961;
+	text-decoration:underline;
+}
+.copyright span{
+	font-size:14px;
+}
+.copyright span i{
+	display:inline-block;
+	margin-right:5px;
+	font-size:16px;
+}
+.rele_link{
+	margin-top:25px;
+}
+.rele_link a{
+	display:inline-block;
+	margin-left:5px;
+	width:35px;
+	height:35px;
+	background:#3b3b4a url(../images/sm_icon.png) no-repeat;
+	border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+
+}
+.rele_link a.weixin{
+	background-position:6px -69px;
+}
+.rele_link a.weixin:hover{
+	background-position:6px -96px;
+}
+.rele_link a.weibo{
+	background-position:6px -124px;
+}
+.rele_link a.weibo:hover{
+	background-position:6px -152px;
+}
+.rele_link a.email{
+	background-position:9px -179px;
+}
+.rele_link a.email:hover{
+	background-position:9px -206px;
+}
